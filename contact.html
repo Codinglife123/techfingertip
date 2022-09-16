@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    *{
+      margin: 0%; 
+      
+    }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+  margin: 50px auto auto auto;
+  text-align: center;
+  font-family: arial;
+  background-color:white;
+}
+.user{
+    margin-top: 50px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+nav ul{
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	background-color: rgba(68, 0, 255, 0.6);
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-right: 50px;
+    margin-bottom: 300px;
+	
+	
+}
+
+nav ul li,
+nav ul li a{
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	margin-left: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+    padding: 0%;
+	
+}
+nav ul li a:link,
+nav ul li a:visited{
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s;
+}
+nav ul li a:hover,
+nav ul li a:active{
+  background-color: #409ad5;
+
+}
+nav .Search{
+
+  float: right;
+  margin-top: 17px;
+  margin-right:70px;
+  
+  width: 300px;
+  height: 20px;
+  border: none;
+  border-radius: 6px;
+text-indent: 5px;
+}
+
+
+</style>
+</head>
+<body>
+    <nav >
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a class="bt" href="contact.html">contact me</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="login.html">log in </a></li>
+            <li><a href="my_regdform.html">sign up</a></li>
+            
+          <input type="search" placeholder="search here " class="Search">
+        </ul>
+    
+    </nav>
+<br><br>
+
+<div class="card">
+    <h2 style="text-align:center" class="user">User Profile Card</h2>
+
+  <img src="image/shiva.png" alt="shiva" style="width:100%">
+  <h1>Biswajit Mahapatra</h1>
+  <p class="title">WEB & APP developer</p>
+  <p>ITER,SOA</p>
+  <div style="margin: 24px 0;">
+    <a href="https://codinglife123.github.io/tech-fingertip/"><i class="fa fa-dribbble"></i></a> 
+    <a href="https://twitter.com/BISWAJI57347379"><i class="fa fa-twitter"></i></a>  
+    <a href="https://www.linkedin.com/in/biswajit-mahapatra-128812223?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlYElqBs3TWauytijD7a%2Beg%3D%3D"><i class="fa fa-linkedin"></i></a>  
+    <a href="https://www.facebook.com/biswajit.mahapatra.7921975/"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button onclick="open.email">Contact</button></p>
+</div>
+
+</body>
+</html>
